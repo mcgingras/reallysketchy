@@ -55,7 +55,7 @@ def generate():
             if vert2 not in vertList:
                 vertList.append(vert2)
 
-        # FRONT
+        # FRONT 
         for vertex in test_data_front:
             vertc = (vertex[0], 0, vertex[1])
             vert2 = (vertex[0], 1, vertex[1])
